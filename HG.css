@@ -1,0 +1,38 @@
+header {
+  height: 60px;
+  display: flex;
+  background-color: blue;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  height: 100px;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  display: flex;
+  flex: 1;
+  /* overflow: auto;
+  align-items: center;
+  justify-content: center; */
+}
+.nav {
+  width: 25%;
+  background-color: beige;
+}
+.aside {
+  width: 25%;
+  background-color: aqua;
+}
+.center {
+  width: 50%;
+  background-color: chocolate;
+}
